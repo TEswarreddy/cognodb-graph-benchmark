@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+results/raw/
+results/processed/
+
+.idea/
+.vscode/
+
+.DS_Store
+
+
+datasets/raw/
