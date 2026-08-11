@@ -1,0 +1,15 @@
+services:
+  falkordb:
+    image: falkordb/falkordb:latest
+    container_name: graph-benchmark-falkordb
+    restart: unless-stopped
+
+    ports:
+      - "6379:6379"
+      - "3001:3000"
+
+    volumes:
+      - falkordb_data:/var/lib/falkordb/data
+
+volumes:
+  falkordb_data:
