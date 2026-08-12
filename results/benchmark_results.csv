@@ -1,0 +1,25 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+Memgraph,1-hop traversal,100,20,2.209,2.720,2.271,1.711,4.794
+Memgraph,2-hop traversal,100,20,2.138,2.586,2.166,1.609,3.210
+Memgraph,3-hop traversal,100,20,2.159,2.546,2.165,1.683,2.986
+Memgraph,point lookup,100,20,2.206,3.000,2.338,1.801,7.471
+Memgraph,aggregation,100,20,790.678,969.099,812.187,642.107,1133.244
+Memgraph,mixed read/write,100,20,2.446,3.112,2.539,2.017,6.792
+FalkorDB,1-hop traversal,100,20,2.087,2.558,2.118,1.565,2.859
+FalkorDB,2-hop traversal,100,20,2.003,2.338,2.035,1.669,2.762
+FalkorDB,3-hop traversal,100,20,2.102,2.615,2.157,1.801,3.311
+FalkorDB,point lookup,100,20,1.999,2.479,2.052,1.644,2.807
+FalkorDB,aggregation,100,20,841.798,956.434,860.930,800.639,1018.923
+FalkorDB,mixed read/write,100,20,3.612,23.162,11.813,1.986,162.811
+Neo4j,1-hop traversal,100,20,14.298,28.606,15.453,8.452,37.051
+Neo4j,2-hop traversal,100,20,7.723,11.514,8.055,5.427,15.118
+Neo4j,3-hop traversal,100,20,5.452,8.818,5.860,4.045,13.261
+Neo4j,point lookup,100,20,5.855,7.029,5.986,4.843,11.174
+Neo4j,aggregation,100,20,414.571,530.202,428.155,357.222,744.608
+Neo4j,mixed read/write,100,20,7.680,9.675,7.937,6.229,13.537
+Apache AGE,1-hop traversal,100,20,126.919,172.367,129.830,102.862,188.533
+Apache AGE,2-hop traversal,100,20,128.994,155.089,128.920,104.475,184.709
+Apache AGE,3-hop traversal,100,20,131.247,158.664,132.421,107.781,190.945
+Apache AGE,point lookup,100,20,172.436,221.760,174.850,130.815,252.968
+Apache AGE,aggregation,100,20,1392.303,1531.511,1394.213,1265.706,1599.526
+Apache AGE,mixed read/write,100,20,570.759,634.768,574.628,525.016,668.881
