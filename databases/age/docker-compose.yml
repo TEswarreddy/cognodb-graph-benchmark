@@ -1,0 +1,19 @@
+services:
+  age:
+    image: apache/age:latest
+    container_name: graph-benchmark-age
+    restart: unless-stopped
+
+    ports:
+      - "5455:5432"
+
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: benchmark_password
+      POSTGRES_DB: graphdb
+
+    volumes:
+      - age_data:/var/lib/postgresql
+
+volumes:
+  age_data:
