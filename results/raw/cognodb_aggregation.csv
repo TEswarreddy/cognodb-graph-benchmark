@@ -1,0 +1,2 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+CognoDB,aggregation,100,20,5124.607,5740.577,5259.373,4607.433,7781.402

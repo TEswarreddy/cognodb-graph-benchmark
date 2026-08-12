@@ -1,0 +1,7 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+Neo4j,1-hop traversal,100,20,14.298,28.606,15.453,8.452,37.051
+Neo4j,2-hop traversal,100,20,7.723,11.514,8.055,5.427,15.118
+Neo4j,3-hop traversal,100,20,5.452,8.818,5.860,4.045,13.261
+Neo4j,point lookup,100,20,5.855,7.029,5.986,4.843,11.174
+Neo4j,aggregation,100,20,414.571,530.202,428.155,357.222,744.608
+Neo4j,mixed read/write,100,20,7.680,9.675,7.937,6.229,13.537

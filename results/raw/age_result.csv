@@ -1,0 +1,7 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+Apache AGE,1-hop traversal,100,20,126.919,172.367,129.830,102.862,188.533
+Apache AGE,2-hop traversal,100,20,128.994,155.089,128.920,104.475,184.709
+Apache AGE,3-hop traversal,100,20,131.247,158.664,132.421,107.781,190.945
+Apache AGE,point lookup,100,20,172.436,221.760,174.850,130.815,252.968
+Apache AGE,aggregation,100,20,1392.303,1531.511,1394.213,1265.706,1599.526
+Apache AGE,mixed read/write,100,20,570.759,634.768,574.628,525.016,668.881

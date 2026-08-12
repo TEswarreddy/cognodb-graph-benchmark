@@ -1,0 +1,4 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+CognoDB,1-hop traversal,100,20,408.338,511.609,406.514,314.714,1563.369
+CognoDB,2-hop traversal,100,20,408.219,506.430,400.207,316.613,861.635
+CognoDB,3-hop traversal,100,20,408.790,487.338,394.398,315.162,512.834

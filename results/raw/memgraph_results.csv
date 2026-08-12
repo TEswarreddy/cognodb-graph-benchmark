@@ -1,0 +1,7 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+Memgraph,1-hop traversal,100,20,2.209,2.720,2.271,1.711,4.794
+Memgraph,2-hop traversal,100,20,2.138,2.586,2.166,1.609,3.210
+Memgraph,3-hop traversal,100,20,2.159,2.546,2.165,1.683,2.986
+Memgraph,point lookup,100,20,2.206,3.000,2.338,1.801,7.471
+Memgraph,aggregation,100,20,790.678,969.099,812.187,642.107,1133.244
+Memgraph,mixed read/write,100,20,2.446,3.112,2.539,2.017,6.792

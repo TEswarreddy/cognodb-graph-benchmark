@@ -4,8 +4,7 @@ __pycache__/
 
 .env
 
-results/raw/
-results/processed/
+
 
 .idea/
 .vscode/

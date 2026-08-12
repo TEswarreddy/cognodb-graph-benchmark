@@ -1,0 +1,2 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+CognoDB,point lookup,100,20,409.403,615.844,431.115,319.984,1126.755

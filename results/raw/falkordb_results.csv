@@ -1,0 +1,7 @@
+database,workload,iterations,warmup_iterations,p50_ms,p95_ms,mean_ms,min_ms,max_ms
+FalkorDB,1-hop traversal,100,20,2.087,2.558,2.118,1.565,2.859
+FalkorDB,2-hop traversal,100,20,2.003,2.338,2.035,1.669,2.762
+FalkorDB,3-hop traversal,100,20,2.102,2.615,2.157,1.801,3.311
+FalkorDB,point lookup,100,20,1.999,2.479,2.052,1.644,2.807
+FalkorDB,aggregation,100,20,841.798,956.434,860.930,800.639,1018.923
+FalkorDB,mixed read/write,100,20,3.612,23.162,11.813,1.986,162.811c
